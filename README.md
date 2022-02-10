@@ -84,8 +84,8 @@ When the code review is complete and the recommendations appear in GitHub, you c
 
 After you're finished with this demo, clean up your resources.
 
-1. In your GitHub fork of **amazon-codeguru-reviewer-sample-app**, go to **Settings**, and then choose **Delete this repository**. Follow the instructions to delete the forked repository.
-1. Delete your clone of the forked repository, for example, `rm -rf amazon-codeguru-reviewer-sample-app`.
+1. In your GitHub fork of **amazon-code-guru-sample**, go to **Settings**, and then choose **Delete this repository**. Follow the instructions to delete the forked repository.
+1. Delete your clone of the forked repository, for example, `rm -rf amazon-code-guru-sample`.
 1. In the CodeGuru Reviewer console, select the example repository, choose **Actions**, and then choose **Disassociate repository**.
 
 ![Image of disassociate option](images/disassociate.png)
