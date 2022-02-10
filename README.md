@@ -28,7 +28,11 @@ Log in to GitHub and choose **Fork** to fork this example app to your GitHub acc
 
 ![Image of Associate view](images/associate.png)
 
-CodeGuru Reviewer is now associated with the repo and listening for pull requests.
+CodeGuru Reviewer is now associated with the repo and listening for pull requests. CodeGuru will run a full analysis on the code base and provide recommendations.
+
+![Full Analysis](images/fullanalysis.png)
+
+![Full Recommendations](images/full-recommendations.png)
 
 ### Step 3: Push a change to the code
 
@@ -36,7 +40,7 @@ Clone the forked repo, replacing **USER_ID** in the URL with your actual user ID
 
     git clone https://github.com/USER_ID/amazon-codeguru-reviewer-sample-app.git
 
-You can get the URL by choosing **Clone or download**.
+You can get the URL by choosing **Code**.
 
 ![Image of Clone button](images/clone.png)
 
@@ -44,11 +48,12 @@ You can get the URL by choosing **Clone or download**.
 
 Check out a new branch.
 
-    cd amazon-codeguru-reviewer-sample-app
+    cd amazon-code-guru-sample
     git checkout -b dev
     
 Copy the Java class at **src/main/java/com/shipmentEvents/handlers/EventHandler.java** into **src/main/java/com/shipmentEvents/demo**.
 
+    mkdir src/main/java/com/shipmentEvents/demo/
     cp src/main/java/com/shipmentEvents/handlers/EventHandler.java src/main/java/com/shipmentEvents/demo/
 
 GitHub and CodeGuru Reviewer will treat this as a new file. 
@@ -63,15 +68,13 @@ Push your changes.
 
 1. In your forked GitHub repo, choose **New pull request**.
 ![Image of New Pull Request](images/newpullrequest.png)
-1. On the left side of the comparison (**base**), select **USER_ID/amazon-codeguru-reviewer-sample-app**, where `USER_ID` is your GitHub user ID. Leave the branch at **master**.
+1. On the left side of the comparison (**base**), select **USER_ID/amazon-code-guru-sample**, where `USER_ID` is your GitHub user ID. Leave the branch at **master**.
 1. On the right side of the comparison (**compare**), change the branch to **dev**. The branches should be showing as **Able to merge**. ![Image of compare view](images/compare.png)
 1. Choose **Create pull request** and, again, **Create pull request**.
 
-
-
 ### Step 5: Review recommendations
 
-After a few minutes, CodeGuru Reviewer will issue recommendations on the same GitHub page where the pull request was created. You can check the status of the code review in the [Code reviews](https://console.aws.amazon.com/codeguru/reviewer/?region=us-east-1#/codereviews) view of the CodeGuru Reviewer console.
+After a few minutes, CodeGuru Reviewer will issue recommendations on the same GitHub page where the pull request was created. You can check the status of the code review in the [Code reviews](https://console.aws.amazon.com/codeguru/reviewer/?region=us-east-1#/codereviews) under **Incremental code reviews** tab of the CodeGuru Reviewer console. It can take a few minutes to complete the review.
 
 ![Image of pending status](images/pending.png)
 
@@ -83,8 +86,8 @@ When the code review is complete and the recommendations appear in GitHub, you c
 
 After you're finished with this demo, clean up your resources.
 
-1. In your GitHub fork of **amazon-codeguru-reviewer-sample-app**, go to **Settings**, and then choose **Delete this repository**. Follow the instructions to delete the forked repository.
-1. Delete your clone of the forked repository, for example, `rm -rf amazon-codeguru-reviewer-sample-app`.
+1. In your GitHub fork of **amazon-code-guru-sample**, go to **Settings**, and then choose **Delete this repository**. Follow the instructions to delete the forked repository.
+1. Delete your clone of the forked repository, for example, `rm -rf amazon-code-guru-sample`.
 1. In the CodeGuru Reviewer console, select the example repository, choose **Actions**, and then choose **Disassociate repository**.
 
 ![Image of disassociate option](images/disassociate.png)
