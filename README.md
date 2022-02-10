@@ -36,7 +36,7 @@ Clone the forked repo, replacing **USER_ID** in the URL with your actual user ID
 
     git clone https://github.com/USER_ID/amazon-codeguru-reviewer-sample-app.git
 
-You can get the URL by choosing **Clone or download**.
+You can get the URL by choosing **Code**.
 
 ![Image of Clone button](images/clone.png)
 
@@ -44,11 +44,12 @@ You can get the URL by choosing **Clone or download**.
 
 Check out a new branch.
 
-    cd amazon-codeguru-reviewer-sample-app
+    cd amazon-code-guru-sample
     git checkout -b dev
     
 Copy the Java class at **src/main/java/com/shipmentEvents/handlers/EventHandler.java** into **src/main/java/com/shipmentEvents/demo**.
 
+    mkdir src/main/java/com/shipmentEvents/demo/
     cp src/main/java/com/shipmentEvents/handlers/EventHandler.java src/main/java/com/shipmentEvents/demo/
 
 GitHub and CodeGuru Reviewer will treat this as a new file. 
@@ -63,7 +64,7 @@ Push your changes.
 
 1. In your forked GitHub repo, choose **New pull request**.
 ![Image of New Pull Request](images/newpullrequest.png)
-1. On the left side of the comparison (**base**), select **USER_ID/amazon-codeguru-reviewer-sample-app**, where `USER_ID` is your GitHub user ID. Leave the branch at **master**.
+1. On the left side of the comparison (**base**), select **USER_ID/amazon-code-guru-sample**, where `USER_ID` is your GitHub user ID. Leave the branch at **master**.
 1. On the right side of the comparison (**compare**), change the branch to **dev**. The branches should be showing as **Able to merge**. ![Image of compare view](images/compare.png)
 1. Choose **Create pull request** and, again, **Create pull request**.
 
@@ -71,7 +72,7 @@ Push your changes.
 
 ### Step 5: Review recommendations
 
-After a few minutes, CodeGuru Reviewer will issue recommendations on the same GitHub page where the pull request was created. You can check the status of the code review in the [Code reviews](https://console.aws.amazon.com/codeguru/reviewer/?region=us-east-1#/codereviews) view of the CodeGuru Reviewer console.
+After a few minutes, CodeGuru Reviewer will issue recommendations on the same GitHub page where the pull request was created. You can check the status of the code review in the [Code reviews](https://console.aws.amazon.com/codeguru/reviewer/?region=us-east-1#/codereviews) under **Incremental code reviews** tab of the CodeGuru Reviewer console.
 
 ![Image of pending status](images/pending.png)
 
