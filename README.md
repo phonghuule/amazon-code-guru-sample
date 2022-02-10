@@ -28,7 +28,11 @@ Log in to GitHub and choose **Fork** to fork this example app to your GitHub acc
 
 ![Image of Associate view](images/associate.png)
 
-CodeGuru Reviewer is now associated with the repo and listening for pull requests.
+CodeGuru Reviewer is now associated with the repo and listening for pull requests. CodeGuru will run a full analysis on the code base and provide recommendations.
+
+![Full Analysis](images/fullanalysis.png)
+
+![Full Recommendations](images/full-recommendations.png)
 
 ### Step 3: Push a change to the code
 
@@ -68,11 +72,9 @@ Push your changes.
 1. On the right side of the comparison (**compare**), change the branch to **dev**. The branches should be showing as **Able to merge**. ![Image of compare view](images/compare.png)
 1. Choose **Create pull request** and, again, **Create pull request**.
 
-
-
 ### Step 5: Review recommendations
 
-After a few minutes, CodeGuru Reviewer will issue recommendations on the same GitHub page where the pull request was created. You can check the status of the code review in the [Code reviews](https://console.aws.amazon.com/codeguru/reviewer/?region=us-east-1#/codereviews) under **Incremental code reviews** tab of the CodeGuru Reviewer console.
+After a few minutes, CodeGuru Reviewer will issue recommendations on the same GitHub page where the pull request was created. You can check the status of the code review in the [Code reviews](https://console.aws.amazon.com/codeguru/reviewer/?region=us-east-1#/codereviews) under **Incremental code reviews** tab of the CodeGuru Reviewer console. It can take a few minutes to complete the review.
 
 ![Image of pending status](images/pending.png)
 
