@@ -80,7 +80,6 @@ After a few minutes, CodeGuru Reviewer will issue recommendations on the same Gi
 
 When the code review is complete and the recommendations appear in GitHub, you can provide feedback on the recommendations using the thumbs up or thumbs down icon. Any positive or negative feedback can be used to help improve the performance of CodeGuru Reviewer so that recommendations get better over time. 
 
-![Image of thumbs up/down icons](images/thumbs_icons.png)
 
 ### Step 6: Clean up
 
