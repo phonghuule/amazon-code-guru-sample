@@ -1,6 +1,6 @@
 # Amazon CodeGuru Reviewer
 
-This lab is provided as part of **[AWS Innovate AI/ML Edition](https://aws.amazon.com/events/aws-innovate/machine-learning/)**, click [here](https://github.com/roshansthomas/aws-innovate-ai-ml-2022) to explore the full list of hands-on labs.
+This lab is provided as part of **[AWS Innovate Data and AI/ML Edition](https://aws.amazon.com/events/aws-innovate/apj/aiml-data/)**
 
 ℹ️ You will run this lab in your own AWS account. Please follow directions at the end of the lab to remove resources to avoid future costs.
 
@@ -97,8 +97,7 @@ After you're finished with this demo, clean up your resources.
 For more information about how to use CodeGuru Reviewer, see the [Amazon CodeGuru Reviewer User Guide](https://docs.aws.amazon.com/codeguru/latest/reviewer-ug/index.html).
 
 ## Survey
-Please help us to provide your feedback [here](https://amazonmr.au1.qualtrics.com/jfe/form/SV_b7mXqfAaiIZUnn8?Session=Lab5).
-Participants who complete the surveys from AWS Innovate Online Conference - AI & Machine Learning Edition will receive a gift code for USD25 in AWS credits. AWS credits will be sent via email by 31 March, 2021.
+Please help us to provide your feedback [here](https://amazonmr.au1.qualtrics.com/jfe/form/SV_0fhl0aCfOF1qjQO?Session=HOL01). Participants who complete the surveys from AWS Innovate Online Conference – Data and AI/ML Edition will receive a gift code for USD25 in AWS credits. AWS credits will be sent via email by 31 March, 2023.
 
 ## License
 
